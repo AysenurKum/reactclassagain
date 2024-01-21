@@ -4,6 +4,7 @@ import Events from "./3-Events/Events";
 import Conditionals from "./4-Conditionals/Conditionals";
 import List from "./5-List/List";
 import UseStateHook from "./6-UseStateHook/UseStateHook";
+import UseEffectHook from "./7-UseEffectHook/UseEffectHook";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       {/* <Events/> */}
       {/* <Conditionals/> */}
       {/* <List/> */}
-      <UseStateHook/>
+      {/* <UseStateHook/> */}
+      <UseEffectHook/>
     </div>
   );
 }

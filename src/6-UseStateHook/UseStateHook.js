@@ -10,6 +10,12 @@ const UseStateHook = () => {
         year:"1964",
         color:"red"
     })
+
+    const updateColor = () => {
+        setCar(previousState => {
+            return {...previousState,color:"pink"}
+        })
+    }
   
   
     return (
@@ -18,6 +24,7 @@ const UseStateHook = () => {
         <button type='button' onClick={()=> setColor("blue")}>Blue Button</button>
         <h1>It is a {car.color} {car.model} from {car.year}</h1>
         <button type='button' onClick={()=> setCar({...car,year:"1980", model:"Doblo"})}>Change Car</button>
+        <button type='button' onClick={updateColor}>Update Car Color</button>
     </div>
   )
 }
