@@ -1,9 +1,19 @@
 import JSX from "./1-JSX/JSX";
+import Props from "./2-Props/Props";
+import Events from "./3-Events/Events";
+import Conditionals from "./4-Conditionals/Conditionals";
+import List from "./5-List/List";
+import UseStateHook from "./6-UseStateHook/UseStateHook";
 
 function App() {
   return (
     <div>
-      <JSX/>
+      {/* <JSX/> */}
+      {/* <Props/> */}
+      {/* <Events/> */}
+      {/* <Conditionals/> */}
+      {/* <List/> */}
+      <UseStateHook/>
     </div>
   );
 }
